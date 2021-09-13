@@ -10,7 +10,7 @@ use craft\behaviors\EnvAttributeParserBehavior;
 use craft\mail\transportadapters\BaseTransportAdapter;
 use cspoo\Swiftmailer\MailgunBundle\Service\MailgunTransport;
 use Http\Adapter\Guzzle6\Client;
-use Mailgun\HttpClientConfigurator;
+use Mailgun\HttpClient\HttpClientConfigurator;
 use Mailgun\Mailgun;
 use Swift_Events_SimpleEventDispatcher;
 
