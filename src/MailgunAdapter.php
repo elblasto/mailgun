@@ -117,7 +117,7 @@ class MailgunAdapter extends BaseTransportAdapter
                 [
                     'class' => Swift_Events_SimpleEventDispatcher::class
                 ],
-                Mailgun::configure($httpClientConfigurator),
+                new Mailgun($httpClientConfigurator),
                 Craft::parseEnv($this->domain),
             ],
         ];
